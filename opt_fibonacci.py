@@ -5,11 +5,13 @@ def fibonacci_recursivo(n):
 
 def fibonacci_dinamico(n,memo={}):
     if n == 0 or n == 1:
-        return
+        return 1
     try:
         return memo[n] #Buscamos n si se tiene 
-    except :
-        resultado = fibonacci_dinamico(n - 1,memo) + fibonacci_dinamico(n - 2,memo) 
+    except KeyError:
+        
+        resultado = fibonacci_dinamico(n - 1) + fibonacci_dinamico(n - 2) 
+        
         #Guardar resultados en el diccionario para no repetir calculos
         memo[n] = resultado
         return resultado
