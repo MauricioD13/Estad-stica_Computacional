@@ -1,0 +1,2 @@
+# Notas: Caminos aleatorios
+
