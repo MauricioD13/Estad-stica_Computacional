@@ -44,3 +44,6 @@ Quiero saber donde va a estar el borracho después de una cierta cantidad de pas
 
 - Entre más pasos haya hay más información. Pero también es muy imnportante correr la simulación muchas veces para poder ver las tendencias
 
+----
+
+A medida que se toman mas muestras al momento de hacer una simulación , es posible generar certeza sobre lo tipos de comportamiento que tiene un programa

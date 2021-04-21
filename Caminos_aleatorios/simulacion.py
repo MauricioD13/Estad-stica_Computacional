@@ -28,9 +28,13 @@ def simular_caminata(pasos, numero_de_intentos, tipo_de_borracho):
     return distancias
 def graficar(x, y):
     grafica = figure(title= 'Camino aletorio',x_axis_label='pasos',y_axis_label='distancia')
-
+    #Crear la figura 
     grafica.line(x, y ,legend='distancia media')
+    #Dibujar la linea
     show(grafica)
+    #Mostrar
+
+
 def main(distancias_de_caminata,intentos, tipo_de_borracho):
     distancias_medio_caminata = []
     for pasos in distancias_de_caminata:
