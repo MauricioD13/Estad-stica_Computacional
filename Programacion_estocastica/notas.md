@@ -34,12 +34,42 @@ Ejemplo de problema:
 ### Leyes
 ![Alt text](Leyes.png)
 
-- Ley multiplicativa -> 'Or'
+- Ley multiplicativa -> 'And'
   - Funciona para eventos mutuamente excluyentes o no
-- Ley aditiva -> 'And'
+- Ley aditiva -> 'Or'
   - Cambia si los eventos son mutuamente excluyentes
 
 Nota: 
 - Metodo analítico -> Pensar de manera matematica las probabilidades
 
 - Método empírico -> Simulación de lso eventos para mirar las probalidades de manera práctica
+
+## Inferencia Estadística
+
+Simulación para calcular probabilidades de eventos complejos sabiendo las probabilidades de eventos simples
+
+- ¿Qué pasa cuando no sabemos las probabilidades de los eventos simples?
+
+- Técnicas de la inferencia estadística nos permite inferir/concluir las propiedades de una población a partir de una muestra aleatorioa
+
+![Alt text](inferencia.png)
+![Alt text](inferencia1.png)
+
+Resolver problemas sin tener que realizar todos los computos del data set.
+
+Al sacar varias muestras en diferentes momentos la probabilidad de que sea una muestra representativa de la población aumenta. La media de la poblacion se asemeja a la media de la muestra, con algunas variaciones 
+  - Varianza
+  - Desviacion estandar
+
+**Ley de los grandes números**
+
+- En pruebas independientes repetidas con la misma probabilidad p de un resultado, la fracción de desviaciones de p converge a cero conforme la cantidad de pruebas se acerca al infinito
+
+![A cute kitten](ley_grandes_numeros.png?style=centerme)
+
+*Falacia del apostado*:
+
+- Señala que después de un evento extremo, ocurrirán eventos menos extremos para nivelar la media
+  - Cada evento es independiente
+
+- La *regresión a la media* señala que después de un evento aleatorio extremo, el siguiente evento probablemente será menos extremo
