@@ -31,6 +31,7 @@ Ejemplo de problema:
   - Se deben calcular todas la posibilidades de un evento 
   - Enumerar todas las posibilidades (Brute force)
 > La probabilidade de que un evento suceda y mas la probabilidad de que no suceda es siempre 1
+
 ### Leyes
 ![Alt text](Leyes.png)
 
@@ -43,3 +44,6 @@ Nota:
 - Metodo analítico -> Pensar de manera matematica las probabilidades
 
 - Método empírico -> Simulación de lso eventos para mirar las probalidades de manera práctica
+
+## Simulacion de Probabilidades
+
