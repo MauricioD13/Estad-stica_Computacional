@@ -55,5 +55,5 @@ if __name__ == '__main__':
 
     distancias_de_caminata = [10, 100, 1000, 10000]
     intentos = 100
-
+    
     main(distancias_de_caminata,intentos, BorrachoTradicional)
