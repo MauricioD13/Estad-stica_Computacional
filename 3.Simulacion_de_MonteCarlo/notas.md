@@ -16,3 +16,19 @@ También implementaron estas simulaciones para los calculos en el proyecto Manha
 
 - Utilizado en muchas areas, desde la ingeniería hasta el derecho.
 
+## Simulación de Barajas
+
+Contruir la baraja y luego sacar cartas de esta baraja. Mirar el resultado para obtener las probabilidades de cada carta y sus combinaciones.
+
+## Cáculo de Pi
+
+A dos matemáticos, Buffon y Laplace se le ocurrio calcular Pi con un método aleatorio. Lanzando agujas, asi como en la siguiente imagen:
+
+![alt text](Imagenes/calculo_pi.png)
+ 
+ Como saber si una aguja cayo adentro del circulo o afuera. Esto se hace mediante la distancia euclidiana, donde si es menor de 1 entonces esta dentro del circulo
+
+
+## Resultado de implentacion
+### Distribucion normal de la implentacion del calculo de pi
+ ![alt text](Imagenes/distribucion_normal_pi.png)
